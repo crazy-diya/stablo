@@ -2,9 +2,9 @@ export default {
   apiUrl: 'http://joeylin.net/api/',
 };
 const siteConfig = {
-  siteName: 'joeylin.net',
+  siteName: 'Stablo',
   siteIcon: 'ion-beer',
-  footerText: 'Isomorphic ©2017 Created with LOVE by Joey Lin',
+  footerText: 'Created by Hasthiya @2021',
 };
 
 const themeConfig = {

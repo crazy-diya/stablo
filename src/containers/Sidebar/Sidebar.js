@@ -136,7 +136,7 @@ class Sidebar extends Component {
               onOpenChange={this.onOpenChange}
               className="isoDashboardMenu"
             >
-              <Menu.Item key="mailbox">
+              {/* <Menu.Item key="mailbox">
                 <Link to={`${url}/mailbox`}>
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-android-mail" />
@@ -145,7 +145,7 @@ class Sidebar extends Component {
                     </span>
                   </span>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
 
               <SubMenu
                 key="ecommerce"
@@ -153,34 +153,34 @@ class Sidebar extends Component {
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-bag" />
                     <span className="nav-text">
-                      <IntlMessages id="sidebar.ecommerce" />
+                      <IntlMessages id="Job" />
                     </span>
                   </span>
                 }
               >
-                <Menu.Item style={submenuStyle} key="shop">
+                {/* <Menu.Item style={submenuStyle} key="shop">
                   <Link style={submenuColor} to={`${url}/shop`}>
                     <IntlMessages id="sidebar.shop" />
                   </Link>
-                </Menu.Item>
+                </Menu.Item> */}
                 <Menu.Item style={submenuStyle} key="cart">
                   <Link style={submenuColor} to={`${url}/cart`}>
-                    <IntlMessages id="sidebar.cart" />
+                    <IntlMessages id="Job Create" />
                   </Link>
                 </Menu.Item>
                 <Menu.Item style={submenuStyle} key="checkout">
                   <Link style={submenuColor} to={`${url}/checkout`}>
-                    <IntlMessages id="sidebar.checkout" />
+                    <IntlMessages id="Job List" />
                   </Link>
                 </Menu.Item>
-                <Menu.Item style={submenuStyle} key="card">
+                {/* <Menu.Item style={submenuStyle} key="card">
                   <Link style={submenuColor} to={`${url}/card`}>
                     <IntlMessages id="sidebar.cards" />
                   </Link>
-                </Menu.Item>
+                </Menu.Item> */}
               </SubMenu>
 
-              <SubMenu
+              {/* <SubMenu
                 key="map"
                 title={
                   <span className="isoMenuHolder" style={submenuColor}>
@@ -201,9 +201,9 @@ class Sidebar extends Component {
                     <IntlMessages id="sidebar.leafletMap" />
                   </Link>
                 </Menu.Item>
-              </SubMenu>
+              </SubMenu> */}
 
-              <Menu.Item key="youtubeSearch">
+              {/* <Menu.Item key="youtubeSearch">
                 <Link to={`${url}/youtubeSearch`}>
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-social-youtube" />
@@ -212,9 +212,9 @@ class Sidebar extends Component {
                     </span>
                   </span>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
 
-              <Menu.Item key="calendar">
+              {/* <Menu.Item key="calendar">
                 <Link to={`${url}/calendar`}>
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-calendar" />
@@ -223,9 +223,9 @@ class Sidebar extends Component {
                     </span>
                   </span>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
 
-              <Menu.Item key="notes">
+              {/* <Menu.Item key="notes">
                 <Link to={`${url}/notes`}>
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-clipboard" />
@@ -234,9 +234,9 @@ class Sidebar extends Component {
                     </span>
                   </span>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
 
-              <Menu.Item key="todo">
+              {/* <Menu.Item key="todo">
                 <Link to={`${url}/todo`}>
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-android-list" />
@@ -245,9 +245,9 @@ class Sidebar extends Component {
                     </span>
                   </span>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
 
-              <Menu.Item key="contacts">
+              {/* <Menu.Item key="contacts">
                 <Link to={`${url}/contacts`}>
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-android-person-add" />
@@ -256,9 +256,9 @@ class Sidebar extends Component {
                     </span>
                   </span>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
 
-              <Menu.Item key="shuffle">
+              {/* <Menu.Item key="shuffle">
                 <Link to={`${url}/shuffle`}>
                   <span className="isoMenuHolder" style={submenuColor}>
                     <i className="ion-grid" />
@@ -267,9 +267,9 @@ class Sidebar extends Component {
                     </span>
                   </span>
                 </Link>
-              </Menu.Item>
+              </Menu.Item> */}
 
-              <SubMenu
+              {/* <SubMenu
                 key="charts"
                 title={
                   <span className="isoMenuHolder" style={submenuColor}>
@@ -311,11 +311,11 @@ class Sidebar extends Component {
                     <IntlMessages id="sidebar.frappeChart" />
                   </Link>
                 </Menu.Item>
-                {/*<Menu.Item style={submenuStyle} key="echart">
+                <Menu.Item style={submenuStyle} key="echart">
                   <Link style={submenuColor} to={`${url}/echart`}>
                     <IntlMessages id="sidebar.eChart" />
                   </Link>
-                </Menu.Item>*/}
+                </Menu.Item>
               </SubMenu>
 
               <SubMenu
@@ -386,7 +386,7 @@ class Sidebar extends Component {
                 </Menu.Item>
               </SubMenu>
 
-              {/* <Menu.Item key="grid_layout">
+              <Menu.Item key="grid_layout">
               <Link to={`${url}/gridLayout`}>
                 <span className="isoMenuHolder" style={submenuColor}>
                   <i className="ion-cube" />
@@ -395,7 +395,7 @@ class Sidebar extends Component {
                   </span>
                 </span>
               </Link>
-            </Menu.Item> */}
+            </Menu.Item>
 
               <SubMenu
                 key="uielements"
@@ -608,11 +608,11 @@ class Sidebar extends Component {
                     <IntlMessages id="sidebar.invoice" />
                   </Link>
                 </Menu.Item>
-                {/*<Menu.Item style={submenuStyle} key="comingSoon">
+                <Menu.Item style={submenuStyle} key="comingSoon">
                   <Link style={submenuColor} to={`${url}/comingSoon`}>
                     <IntlMessages id="sidebar.comingSoon" />
                   </Link>
-                </Menu.Item>*/}
+                </Menu.Item>
               </SubMenu>
               <SubMenu
                 key="sub1"
@@ -647,9 +647,9 @@ class Sidebar extends Component {
                     <IntlMessages id="sidebar.option4" />
                   </Menu.Item>
                 </MenuItemGroup>
-              </SubMenu>
+              </SubMenu> */}
 
-              {getDevSidebar(url, submenuColor)}
+              {/* {getDevSidebar(url, submenuColor)} */}
             </Menu>
           </Scrollbars>
         </Sider>
